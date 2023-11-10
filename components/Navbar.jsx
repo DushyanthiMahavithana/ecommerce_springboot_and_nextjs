@@ -16,22 +16,14 @@ export default function Navbar() {
             className="cursor-pointer"
             priority/>
 
-           
             <Link className="ml-80" href={"/"}>Home</Link>
             <Link className="ml-20" href={"/shop"}>Shop</Link>
             <Link className="ml-20" href={"/product-page"}>Product Page</Link>
             <Link className="ml-20" href={"/about"}>About Us</Link>
             <Link className="ml-20" href={"/contact"}>Contact Us</Link>
             <Link className="ml-20" href={"/cart"}><AiOutlineShoppingCart size={20}/></Link>
-        
-            </div>
-
-
-           
-          
-            
+            </div>   
         </nav>
     );
-
 }
   
