@@ -19,12 +19,12 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center space-x-8">
-          <Link href={"/"} className="text-gray-800 hover:text-gray-600">Home</Link>
-          <Link href={"/shop"} className="text-gray-800 hover:text-gray-600">Shop</Link>
-          <Link href={"/product-page"} className="text-gray-800 hover:text-gray-600">Product Page</Link>
-          <Link href={"/about"} className="text-gray-800 hover:text-gray-600">About Us</Link>
-          <Link href={"/contact"} className="text-gray-800 hover:text-gray-600">Contact Us</Link>
-          <Link href={"/cart"} className="text-gray-800 hover:text-gray-600 flex items-center">
+          <Link href={"/"} className="text-gray-800 hover:text-gray-400">Home</Link>
+          <Link href={"/shop"} className="text-gray-800 hover:text-gray-400">Shop</Link>
+          <Link href={"/product-page"} className="text-gray-800 hover:text-gray-400">Product Page</Link>
+          <Link href={"/about"} className="text-gray-800 hover:text-gray-400">About Us</Link>
+          <Link href={"/contact"} className="text-gray-800 hover:text-gray-400">Contact Us</Link>
+          <Link href={"/cart"} className="text-gray-800 hover:text-gray-400 flex items-center">
             <AiOutlineShoppingCart size={20} />
           </Link>
         </div>
