@@ -7,7 +7,8 @@ import {CiInstagram} from "react-icons/ci";
 import {CiYoutube} from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
-import { FaPhone } from "react-icons/fa6";
+import { FaPhoneVolume } from "react-icons/fa";
+
 
 export default function contact() {
   return (
@@ -25,16 +26,26 @@ export default function contact() {
           Reaching Out to Us
         </h1>
         <div className='m-20'>
-        <Link className="hover:text-gray-400"  href={"/#"}><FaLocationDot size={40}/></Link><br></br>
-        <Link  className="hover:text-gray-400"   href={"/#"}><BiLogoGmail size={40}/></Link><br></br>
-        <Link  className="hover:text-gray-400"   href={"/#"}><FaPhone size={31}/></Link><br></br>
+        <Link className="hover:text-gray-400 flex"  href={"/#"}><FaLocationDot size={40}/><p className='ml-10'>gfgfgffgfggfdgdgdgdfgd</p></Link><br></br>
+        <Link  className="hover:text-gray-400 flex"   href={"/#"}><BiLogoGmail size={40}/><p className='ml-10'>gfgfgffgfggfdgdgdgdfgd</p></Link><br></br>
+        <Link  className="hover:text-gray-400 flex"   href={"/#"}><FaPhoneVolume size={40}/><p className='ml-10'>gfgfgffgfggfdgdgdgdfgd</p></Link><br></br>
         <div className='flex mt-10'>
-        <Link className="hover:text-gray-400 mr-4"  href={"/#"}><CiFacebook size={40}/></Link>
-        <Link  className="hover:text-gray-400 mr-4"   href={"/#"}><CiInstagram size={40}/></Link>
-        <Link  className="hover:text-gray-400 mr-4"   href={"/#"}><CiYoutube size={40}/></Link>
+        <Link className="hover:text-gray-400 mr-8"  href={"/#"}><CiFacebook size={40}/></Link>
+        <Link  className="hover:text-gray-400 mr-8"   href={"/#"}><CiInstagram size={40}/></Link>
+        <Link  className="hover:text-gray-400 mr-8"   href={"/#"}><CiYoutube size={40}/></Link>
         </div>
         </div>
         </div>
+        <div>
+          
+          
+
+        </div>
+
+      </div>
+      <div className='mt-10'>
+        
+        
 
       </div>
       
