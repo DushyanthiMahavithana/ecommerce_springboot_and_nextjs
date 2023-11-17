@@ -13,7 +13,6 @@ export default function searchbar() {
       placeholder='Search'>
       </input>
     
-
       <div className='flex'>
       <Link className="hover:text-gray-400 mr-8"  href={"/#"}><FiHeart size={25}/></Link>
       <Link className="hover:text-gray-400 mr-8"  href={"/#"}><AiOutlineShoppingCart  size={25}/></Link>
