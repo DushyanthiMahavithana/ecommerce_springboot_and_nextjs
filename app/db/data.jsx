@@ -9,6 +9,11 @@ import Product7 from "../../images/pedigree7.jpg";
 import Product8 from "../../images/whiscas1.jpg";
 import Product9 from "../../images/whiscas2.jpg";
 import Product10 from "../../images/whiscas3.jpg";
+import Product11 from "../../images/whiscas4.jpg";
+import Product12 from "../../images/whiscas5.jpg";
+import Product13 from "../../images/whiscas6.jpg";
+import Product14 from "../../images/whiscas7.jpg";
+import Product15 from "../../images/whiscas8.jpg";
 import { BsFillBagHeartFill} from "react-icons/bs";
 
 
@@ -100,6 +105,51 @@ const data=[
         name:"Whiskas Denta Bites",
         star:3,
         price:"$3.59",
+        category:"food",
+        icon:<BsFillBagHeartFill/>
+    },
+    {
+        id:11,
+        image: Product11,
+        name:"Whiskas Chicken Filled with Milk",
+        star:4,
+        price:"$6.13",
+        category:"food",
+        icon:<BsFillBagHeartFill/>
+    },
+    {
+        id:12,
+        image: Product12,
+        name:"Whiskas Ocean Fish",
+        star:5,
+        price:"$8.58",
+        category:"food",
+        icon:<BsFillBagHeartFill/>
+    },
+    {
+        id:13,
+        image: Product13,
+        name:"Whiskas Chicken Flavour",
+        star:5,
+        price:"$8.58",
+        category:"food",
+        icon:<BsFillBagHeartFill/>
+    },
+    {
+        id:14,
+        image: Product14,
+        name:"Whiskas Tuna Flavour",
+        star:5,
+        price:"$8.58",
+        category:"food",
+        icon:<BsFillBagHeartFill/>
+    },
+    {
+        id:15,
+        image: Product15,
+        name:"Whiskas Chicken in jelly",
+        star:3,
+        price:"$8.58",
         category:"food",
         icon:<BsFillBagHeartFill/>
     },
