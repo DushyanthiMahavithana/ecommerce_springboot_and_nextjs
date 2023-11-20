@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export default function products() {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 p-6'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-1 ml-60 mr-10 mt-10'>
         {data.map(products =>(
             <div key={products.id} className="bg-white shadow-lg p-6 rounded-md">
                 <Image src={products.image} alt={products} width={300} height={200} className="mb-4 rounded-md"></Image>
