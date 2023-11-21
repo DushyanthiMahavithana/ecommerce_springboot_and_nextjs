@@ -6,9 +6,11 @@ import Price from './price/page';
 
 export default function sidebar() {
   return (
-    <div>
+    <div className='mt-10'>
+      <div>
       <Category />
       <Price />
+      </div>
     </div>
   )
 }

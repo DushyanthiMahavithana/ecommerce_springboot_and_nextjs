@@ -6,7 +6,7 @@ import {FiHeart} from "react-icons/fi";
 export default function searchbar() {
   return (
     <div>
-    <div className='flex items-center justify-between p-4 bg-slate-200 text-black'>
+    <div className='flex items-center justify-between p-4 bg-slate-200 text-black ml-60 mb-10'>
       <input 
       className='px-2 py-1 mr-2 border rounded focus:outline' 
       type='text'

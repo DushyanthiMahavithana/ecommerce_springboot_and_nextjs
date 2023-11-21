@@ -8,15 +8,14 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
   return (
-  <div className='max-w-8xl mx-auto'>
-    <div>
-      <Searchbar/>
+    <div className='max-w-8xl mx-auto flex'>
+       <div className='flex-1/3'>
       <Sidebar />
     </div>
-    <div className="flex-1">
+    <div className='flex-2/3'>
+      <Searchbar />
       <Recommended />
       <Products />
-      {children}
     </div>
   </div>
 
