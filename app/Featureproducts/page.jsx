@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Featureproducts() {
   return (
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-1 ml-40 mr-10 mt-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 p-1 ml-10 mr-10 mt-10 mb-20'>
         {fdata.map(products =>(
             <div key={products.id} className="bg-white shadow-lg p-6 rounded-md">
                 <Image src={products.image} alt={products} width={300} height={200} className="mb-4 rounded-md"></Image>
