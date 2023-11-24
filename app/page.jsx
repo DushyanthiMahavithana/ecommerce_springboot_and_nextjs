@@ -19,8 +19,8 @@ export default function Home() {
             </Link>
             </div>
         </div>
-        <div className='text-center mt-16'>
-            <h1 className='text-3xl font-semibold mb-8'>Feature Products</h1>
+        <div className='mt-16'>
+            <h1 className='text-3xl text-center font-semibold mb-8'>Feature Products</h1>
             <div>
                <FeatureProducts/> 
 
@@ -32,7 +32,7 @@ export default function Home() {
 
         </div>
         <div className='text-center mt-16'>
-            <h1 className='text-3xl font-semibold mb-8'>Upcomming Products</h1>
+            <h1 className='text-3xl text-center font-semibold mb-8'>Upcomming Products</h1>
             <div>
 
             </div>
