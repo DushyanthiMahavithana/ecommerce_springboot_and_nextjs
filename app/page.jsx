@@ -30,6 +30,13 @@ export default function Home() {
         <Image src={Advertisement} className="w-30 h-30 mb-4"></Image>
 
         </div>
+        <div className='text-center mt-16'>
+            <h1 className='text-3xl font-semibold mb-8'>Upcomming Products</h1>
+            <div>
+                
+            </div>
+
+        </div>
     
     </div>
 
