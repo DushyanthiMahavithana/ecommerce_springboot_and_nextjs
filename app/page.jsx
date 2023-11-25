@@ -4,6 +4,7 @@ import HomeBanner from '../images/homebanner.jpg';
 import Link from 'next/link';
 import Advertisement from '../images/advertisement.jpg';
 import FeatureProducts from '../app/Featureproducts/page';
+import UpcommingProducts from '../app/Upcommingproducts/page';
 
 export default function Home() {
     return(
@@ -34,6 +35,7 @@ export default function Home() {
         <div className='text-center mt-16'>
             <h1 className='text-3xl text-center font-semibold mb-8'>Upcomming Products</h1>
             <div>
+                <UpcommingProducts/>
 
             </div>
 
