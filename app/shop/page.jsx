@@ -4,6 +4,8 @@ import Products from '../products/page';
 import Recommended from '../recommended/page';
 import Sidebar from '../sidebar/page';
 
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
